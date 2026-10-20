@@ -5,9 +5,9 @@ are created and managed with TypeORM.
 
 ## Student details
 
-- **Name:** [Your full name]
-- **Student ID:** [Your student ID]
-- **Section:** [Your section]
+- **Name:** Shah Jalal Dip
+- **Student ID:** 23-54777-3
+- **Section:** D
 
 Replace the placeholders above before submission.
 
@@ -22,7 +22,7 @@ Replace the placeholders above before submission.
 1. Create a PostgreSQL database:
 
    ```sql
-   CREATE DATABASE product_management;
+   CREATE DATABASE product_managementDB;
    ```
 
 2. Copy `.env.example` to `.env` and set the PostgreSQL username, password,
@@ -39,9 +39,9 @@ Replace the placeholders above before submission.
    With npm, use `npm install`, `npm run migration:run`, and
    `npm run start:dev`. Migrations also run automatically when the API starts.
 
-The API runs at `http://localhost:3000` by default. The initial migration
+The API runs at `http://localhost:5001`. The initial migration
 creates the products and employees tables. The Swagger UI is available at
-`http://localhost:3000/api`.
+`http://localhost:5001/api`.
 
 ## Endpoints
 
