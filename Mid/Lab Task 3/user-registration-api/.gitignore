@@ -1,0 +1,15 @@
+# dependencies and build output
+node_modules
+dist
+
+# real environment file (never push this)
+.env
+
+# logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+.idea
+.vscode
